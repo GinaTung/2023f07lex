@@ -1,0 +1,31 @@
+.wrap{
+    margin: 0 auto;
+    max-width: 1166px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    line-height: 1.5;
+    background: #37523d;
+}
+h2{
+    font-size: 80px;
+    padding: 80px 0;
+    color: #37523d;
+    text-align: center;
+}
+h3{
+    color: #37523d;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.card{
+    width: 370px;
+    border: 1px solid #e7eeea;
+    background: #fff;
+}
+.card-bg{
+    background: #e7eeea;
+}
+.card-content{
+    padding: 30px 30px 80px 30px;
+}
