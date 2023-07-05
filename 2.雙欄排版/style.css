@@ -1,0 +1,31 @@
+/* 務必要寫html高度才會呈現與整個畫面 */
+html,body{
+  height: 100%;
+  line-height: 1.5;
+}
+.container{
+  max-width: 1136px;
+  height: 100%;
+}
+h2,h3{
+  color: #3F5D45;
+  font-weight: bold;
+  font-size: 24px;
+}
+.content{
+  height: 100%;
+  display: flex;
+}
+.card{
+  width: 50%;
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EAF0ED;
+  border-radius: 10px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
